@@ -1,0 +1,103 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "La revolución de la IA y Copilot Chat",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "**Inteligencia artificial (IA)** Ya no es un concepto futurista: se está convirtiendo en una parte integral de nuestra vida cotidiana, transformando no solo la forma en que interactuamos con la tecnología, sino también nuestra forma de trabajar.\n\nComo parte de esta evolución, nuestra empresa ha decidido adoptar una herramienta de inteligencia artificial que da prioridad a la **seguridad y la protección de datos**, lo que lo distingue de muchas otras soluciones del mercado.\n\nNos complace presentar **Copilot Chat**, el asistente de chat con IA oficial aprobado por nuestra empresa. Copilot Chat es una herramienta de chat con IA potente y segura, diseñada para dar rienda suelta a la creatividad, potenciar la productividad y mejorar las habilidades.\n\nAprovecha los últimos modelos de inteligencia artificial y los conocimientos de la web para facilitar tu trabajo, potenciar tu creatividad, aumentar tu productividad y mejorar tus habilidades, todo ello sin dejar de proteger tus datos.\n\nA diferencia de otras herramientas, Copilot Chat garantiza que **tus conversaciones sean privadas y que no se divulgue ni se filtre ninguna información confidencial de la empresa.**\n\nTe animamos a que **pruebes Copilot Chat y lo incorpores a tu rutina diaria.**",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Nuestra experiencia con Copilot Chat",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Good"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**En las próximas semanas**, Recibirás una serie de **notificaciones de Teams** que te ayudarán a dar tus primeros pasos con la IA en el trabajo.\n\n**Durante la primera semana**, Recibirás tres mensajes en los que se presenta el concepto de la inteligencia artificial, se explica por qué Copilot Chat es la herramienta de IA oficial de nuestra empresa y se ofrecen consejos sobre cómo **interactuar con ella de forma eficaz.**\n\nA partir de la segunda semana, recibirás:\n- **Todos los lunes**, sugerencias sencillas que puedes probar ahora mismo con Copilot, diseñadas para facilitar tu trabajo diario, potenciar la creatividad y mejorar la productividad.\n- **Todos los miércoles**, El caso de uso de Copilot Chat de esta semana, acompañado de un vídeo tutorial en el que se explica cada paso.\n- **El viernes de la tercera semana**, Un cuestionario para poner a prueba tus habilidades con Copilot Chat.",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Seguridad de Copilot Chat",
+                  "url": "https://www.youtube.com/watch?v=7JjGEdGJLY0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Descubre Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+ {
+  "type": "TextBlock",
+  "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**\n\nMás información: [m365copilot.com](https://m365copilot.com)",
+  "wrap": true,
+  "weight": "Bolder",
+  "spacing": "Medium"
+}
+      ]
+    }
+  ]
+}
