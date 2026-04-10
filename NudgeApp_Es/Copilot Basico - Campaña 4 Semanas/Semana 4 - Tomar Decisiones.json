@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Bienvenido al fantástico mundo de Copilot Chat: ¡escribe mensajes como un experto!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "¡Bienvenido a la cuarta semana! ¡Prepárate para descubrir todo el potencial de Microsoft 365 Copilot Chat! \n Esta semana utilizaremos Copilot Chat como tu **asesor inteligente** para **agudizar tu pensamiento, mejorar la claridad y descubrir ideas valiosas**.\n\n¿Quieres ver de lo que es capaz Copilot Chat?\n[Copia y Pega] Prueba estos prompts y ponte manos a la obra de inmediato. Para sacar el máximo partido, céntrate en un prompt al día y utilízalo varias veces a lo largo de tu jornada laboral.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**ACLARAR LA SITUACIÓN Y ELABORAR EL PLAN ADECUADO**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Eres mi asesor de confianza. Soy el director de marketing y voy a presentar los resultados de la campaña de PetProtein (producto lanzado hace unos tres meses) al equipo directivo. Antes de crear nada, hazme cinco preguntas para aclarar algunos aspectos (público, plazo, indicadores clave de rendimiento, combinación de canales y qué se entiende por «éxito»). A continuación, elabora una breve lista de tareas que se puedan supervisar para preparar una presentación general de los resultados.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**DEFINE LAS IDEAS CLAVE SOBRE EL LIDERAZGO**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Eres mi asesor de confianza. Define las 3-5 ideas clave sobre liderazgo que debe transmitir esta presentación (impacto, eficiencia, crecimiento, riesgo). Para cada idea: especifica qué datos esperas (qué métricas o segmentaciones) y cómo deben aparecer en la diapositiva (título + un dato que lo respalde). Si faltan datos, indíquelo como una laguna en los datos.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**CONVIERTE LOS DATOS REALES DE LAS CAMPAÑAS EN CONTENIDO LISTO PARA PRESENTACIONES**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Eres mi asesor inteligente. Utilizando la lista de verificación y los datos del documento de la campaña que se ha subido (análisis web, redes sociales, CRM), crea contenido para cada tarea. Prepáralo para presentarlo a la dirección: títulos concisos, métricas clave y un máximo de 1 o 2 puntos por diapositiva. Marcar los supuestos y los datos que faltan.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**CREA UNA PRESENTACIÓN DE POWERPOINT SOBRE LIDERAZGO DE ALTO NIVEL**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Eres mi asesor experto. Convierte el contenido en una presentación de PowerPoint de alto nivel dirigida a los directivos: entre 8 y 10 diapositivas como máximo, cada uno con una conclusión clara y la métrica más relevante. Crea el archivo de PowerPoint.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**REVISAR, PULIR Y PREPARARSE PARA LA SESIÓN DE PREGUNTAS Y RESPUESTAS CON LOS DIRECTIVOS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Eres mi asesor experto. Revisa el borrador de la presentación y dale un toque ejecutivo: simplifica la redacción y asegúrate de que haya un solo mensaje por diapositiva, ajustar el guion y añadir notas del ponente (2-3 frases por diapositiva). A continuación, formula ocho preguntas difíciles sobre liderazgo (presupuesto, atribución, ROI, próximas apuestas) con respuestas sólidas y basadas en datos. Por último, vuelve a generar la presentación para francés y alemán (mantén la coherencia en los números; traduce los títulos y las notas).*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**A lo largo de estas cuatro semanas, has descubierto nuevas formas de trabajar con Copilot Chat. ¡Aprovecha lo que has aprendido, sigue practicando e incorpóralo a tu trabajo diario!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

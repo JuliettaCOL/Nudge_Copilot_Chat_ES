@@ -1,0 +1,111 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**¡Bienvenidos al gran viaje de Copilot Chat: el caso práctico de la semana!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Bienvenidos de nuevo a nuestra serie «Caso práctico de la semana».\n\nEsta semana utilizaremos Copilot Chat para convertir los datos brutos en información clara que puedas compartir con las partes interesadas.\n\n**Sin teorías: solo ejemplos prácticos que puedes poner en práctica de inmediato y ver la diferencia en tu trabajo diario.**",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**DESCRIPCIÓN DEL ESCENARIO**\n\nEste caso práctico muestra cómo utilizar Copilot Chat para analizar un conjunto de datos (exportación de Excel, CSV o tabla de KPI) y generar:\n- Tendencias y anomalías clave\n- Principales factores e hipótesis\n- Un breve resumen ejecutivo\n- Próximos pasos recomendados\n\nSubirás el archivo (o pegarás una tabla), le pedirás a Copilot que resuma las tendencias y, a continuación, generarás un informe listo para presentar a las partes interesadas.\n\n**PROMPTS UTILIZADOS [Copia y Pega]**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "✨ *Analiza el conjunto de datos adjunto. Identifica cinco tendencias clave, tres anomalías o valores atípicos, y qué factores podrían estar influyendo en ellos. Si es necesario hacer suposiciones, enuméralas claramente.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Redacta un resumen ejecutivo (máximo 120 palabras) en el que expliques qué ha cambiado, por qué es importante y qué pasos debemos dar a continuación.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Redacta un correo electrónico dirigido a las partes interesadas en el que se expliquen los resultados en un lenguaje sencillo, con tres puntos clave y una breve sección de «medidas recomendadas».*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Propón cinco análisis o preguntas de seguimiento que debería investigar a continuación (por ejemplo, segmentación, comparaciones temporales, desglose por canales). Ordénalos por orden de importancia.*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**¿Te ha inspirado este ejemplo de uso? ¡Ponlo en práctica!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Más información",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

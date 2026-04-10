@@ -1,0 +1,81 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.6",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+                            "size": "Medium",
+                            "horizontalAlignment": "Left"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://store-images.s-microsoft.com/image/apps.44413.13623743226081137.44717f35-32c5-4d9e-ab80-390d1fdf3f60.6275dbfa-3261-417d-b5f0-7da8763cfb61?w=75",
+                            "size": "Small",
+                            "horizontalAlignment": "Right",
+                            "height": "35px"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NDY4NzA0LXhWNHhaOA",
+            "height": "250px",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "✨ Compare Multiples Imagenes en Copilot ",
+            "wrap": true,
+            "weight": "Bolder",
+            "size": "Large",
+            "spacing": "Small"
+        },
+        {
+            "type": "TextBlock",
+            "text": "\n\n Ahora puedes **subir varias imágenes a la vez en Copilot Chat** para compararlas, detectar detalles y agilizar las preguntas y respuestas, todo en un solo paso.",
+            "wrap": true,
+            "spacing": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "💡**Prompt:**\n\n“ [attach images] Analiza los diagramas de arquitectura e identifica las diferencias en los componentes, los datos y las capas de seguridad. Indica cuál es la opción óptima.”\n\n",
+            "wrap": true,
+            "spacing": "Medium",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "text": " **✅ Por qué es útil:** Compara imágenes, identifica rápidamente las diferencias o los patrones y obtén respuestas al instante sobre lo que hay en cada imagen",
+            "wrap": true,
+            "spacing": "Medium"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "¡Haz clic para abrir Copilot y pruébalo!",
+            "url": "https://m365.cloud.microsoft/"
+        }
+    ]
+}

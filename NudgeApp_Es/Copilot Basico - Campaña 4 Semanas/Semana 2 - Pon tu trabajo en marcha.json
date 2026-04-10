@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Bienvenido al fantástico mundo de Copilot Chat: ¡escribe mensajes como un experto!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "¡Bienvenido a la segunda semana! ¡Prepárate para descubrir todo el potencial de Microsoft 365 Copilot Chat! \n Esta semana descubrimos cómo Copilot Chat puede **Optimiza tu trabajo y ahorra un tiempo valioso resumiendo documentos largos y redactando borradores.**.\n\n¿Quieres ver de lo que es capaz Copilot Chat?\n[Copia y Pega] Prueba estos prompts y ponte manos a la obra de inmediato. Para sacar el máximo partido, céntrate en un prompt al día y utilízala varias veces a lo largo de tu jornada laboral.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**RESUMIR**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Resume esto: [Subir documento].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**REDACTAR UN PRIMER BORRADOR**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Escribe una entrada de blog sobre [tema]. Asegúrate de incluir un titular llamativo y una llamada a la acción al final.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**RESUMEN**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Enumera los puntos clave de este documento: [Subir archivo].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**IDEAS Y PLANES**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Propón tres ideas de productos que combinen tecnología y [capacidad], y presenta un ejemplo de plan de negocio para cada una de ellas.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**HAZLO MÁS ATRACTIVO**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Sugiere formas de hacer que esta presentación resulte más atractiva sin perder el tono profesional (por ejemplo, una narrativa más clara, ganchos más impactantes, elementos visuales más sencillos y, si procede, un momento desenfadado y adecuado).*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Prueba estas sugerencias esta semana. La semana que viene te enseñaremos cómo obtener información valiosa con la ayuda de Copilot Chat.**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}
