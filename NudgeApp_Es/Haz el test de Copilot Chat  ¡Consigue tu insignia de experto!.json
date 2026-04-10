@@ -1,0 +1,73 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "¿Listo para pasar al siguiente nivel?",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Hola,\n\n¿Crees que ya dominas los conceptos básicos de Microsoft 365 Copilot Chat?\n\n¡Es hora de poner a prueba tus habilidades!\n\nHaz nuestro breve test de 2 minutos y comprueba cuánto has aprendido.\n\nCompleta el curso y desbloquea tu insignia de «Usuario avanzado de Copilot Chat»: una forma divertida de demostrar que vas por buen camino para convertirte en un auténtico experto en Copilot.\n\nEs rápido, fácil y una forma estupenda de celebrar tus logros.\n\n¿Estás listo para demostrar tus habilidades?\n\n¡Vamos!",
+          "wrap": true,
+          "spacing": "Small",
+          "weight": "Default"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "¡Haz el test y consigue tu insignia!",
+                  "url": "https://contoso.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}
