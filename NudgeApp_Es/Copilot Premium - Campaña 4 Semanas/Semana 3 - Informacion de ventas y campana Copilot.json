@@ -1,0 +1,121 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**¡Bienvenidos al gran viaje de Copilot Chat: el caso práctico de la semana!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Esta semana, utilizaremos Copilot Chat para convertir un **informe de ventas** en información clara y un plan de acción — y luego dar un paso más allá creando un sencillo flujo de trabajo de **contacto con influencers**.\n\nNada de teoría: solo un ejemplo práctico que puedes poner en práctica de inmediato.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**DESCRIPCIÓN DEL ESCENARIO**\n\nEres el nuevo director comercial de **SweetVibe Creations**, responsable de las ventas de **ChocoVibe** (una barrita energética de chocolate negro con frutos secos y superalimentos).\n\nRecibes el último documento de **Progreso de ventas** y debes:\n- Comprender el informe rápidamente (incluidas las siglas)\n- Visualiza la tendencia de ventas\n- Identificar estrategias para mejorar las ventas\n- Profundiza en una estrategia (colaboraciones con influencers)\n- Crea un perfil de influencer y redacta mensajes de contacto\n\n**PROMPTS UTILIZADOS [Copia y Pega]**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "✨ *Acabo de incorporarme al puesto de director comercial en SweetVibe Creations y me encargaré de gestionar las ventas de ChocoVibe, una barrita energética de chocolate negro con un relleno de frutos secos y superalimentos. Basándose en el último informe de evolución de ventas, explique las siglas utilizadas y elabore un gráfico que muestre la tendencia de las ventas..*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Proponer estrategias para mejorar las ventas.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Profundiza en la estrategia: colaboraciones con influencers. Dame un plan sencillo de entre 5 y 7 pasos, una descripción de cómo se definiría el éxito y tres riesgos a tener en cuenta.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Crea un perfil de un influencer que pueda resultar útil para una campaña en redes sociales de ChocoVibe (público, nicho, estilo de contenido, plataforma, número de seguidores, valores e ideas para publicaciones).*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Redacta un borrador de mensaje directo en Instagram para establecer contacto con este influencer y proponerle una colaboración. Sé breve y concreto.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Reescribe el mensaje directo para que resulte más cálido y atractivo, sin que suene insistente. Dame dos versiones alternativas.*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**¿Te ha inspirado este ejemplo de uso? ¡Ponlo en práctica!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Prueba Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

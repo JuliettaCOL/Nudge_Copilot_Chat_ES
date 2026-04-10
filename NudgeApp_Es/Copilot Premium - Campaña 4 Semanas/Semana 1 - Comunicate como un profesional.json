@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Bienvenido al fantástico mundo de Copilot Chat: ¡Escribe mensajes como un Experto!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Durante las próximas cuatro semanas, descubrirás cómo transformar tu forma de trabajar con Copilot Chat. Cada semana nos centraremos en una habilidad diferente y recibirás sugerencias para ponerlas en práctica de inmediato.\n\n**En la primera semana** Empezamos con **mejorar tus habilidades de redacción y comunicación**.\n\n¿Quieres ver de lo que es capaz Copilot Chat?\n[Copia y pega] Prueba estos prompts  y empieza ya mismo. Para sacar el máximo partido, céntrate en un prompt al día y utilízalo varias veces a lo largo de tu jornada laboral.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**MEJORA TU REDACCIÓN**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Reescribe esto para que suene más profesional: [insert text].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**SUPERA LAS BARRERAS LINGÜÍSTICAS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *¿Cómo se dice [gracias por tu tiempo] en japonés?*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**REDACTAR CORREOS ELECTRÓNICOS RÁPIDAMENTE**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Redacta un correo electrónico dirigido a [nombre] sobre [tema].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**HACER QUE ESCRIBIR RESULTE MENOS ESTRESANTE**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Analiza el texto que aparece a continuación y haz sugerencias para mejorarlo: [insertar texto].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**CREAR UNA IMAGEN**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+        "text": "✨ *Crea una imagen sencilla para un libro para colorear para mi hijo en la que aparezca [nuestra mascota].. La imagen debe ser un dibujo lineal nítido, con contornos negros sobre fondo blanco y espacio libre para colorear. Los contornos deben ser trazos cerrados y objetos completos. No debe haber líneas sueltas ni manchas. Incluye un escenario divertido para que mi hijo se divierta aún más coloreando.*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Prueba estos prompts esta semana. La semana que viene te enseñaremos cómo llevar tu trabajo al siguiente nivel resumiendo documentos y redactando borradores.**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Bienvenido al fantástico mundo de Copilot Chat: ¡escribe mensajes como un experto!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "¡Bienvenido a la tercera semana! ¡Prepárate para descubrir todo el potencial de Microsoft 365 Copilot Chat! \n Esta semana aprovecharemos las posibilidades de Microsoft 365 Copilot Chat para **desarrollar tus habilidades y descubrir información valiosa.**.\n\n¿Quieres ver de lo que es capaz Copilot Chat?\n[Copia y Pega] Prueba estos prompts y empieza ya mismo. Para sacar el máximo partido, céntrate en un prompt al día y utilízalo varias veces a lo largo de tu jornada laboral.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**DESGLOSA CUALQUIER TEMA**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Resume esto: [Subir documento].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**VISUALIZA TUS DATOS EN CUESTIÓN DE SEGUNDOS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Escribe una entrada de blog sobre [tema]. Asegúrate de incluir un título atractivo y una llamada a la acción al final.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**CONVIERTE LOS DATOS EN INFORMES**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Enumera los puntos clave de este documento: [Subir archivo].*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**PON EN MARCHA UNA SESIÓN DE LLUVIA DE IDEAS CREATIVA**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Propón tres ideas de productos que combinen tecnología y [capacidad], y presenta un ejemplo de plan de negocio para cada una de ellas.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "**DESCUBRE DATOS CURIOSOS**",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Sugiere formas de añadir un toque de diversión y humor a [esta presentación]. Da ejemplos concretos de lo que podría incluir y dónde se incluirían en la presentación: [subir presentación].*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Prueba estas sugerencias esta semana. La semana que viene te enseñaremos cómo utilizar Copilot Chat como compañero de reflexión para ayudarte a tomar (o respaldar) una decisión.**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

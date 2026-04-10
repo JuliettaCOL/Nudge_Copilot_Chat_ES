@@ -1,0 +1,116 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**¡Bienvenidos al gran viaje de Copilot Chat: el caso práctico de la semana!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "¡Prepárate para descubrir todo el potencial de Copilot Chat de Microsoft 365!\n\nEsta semana, utilizaremos Copilot Chat para **subir documentos, crear un análisis y colaborar en los resultados para perfeccionarlos**.\n\nSin teorías - solo un flujo de trabajo práctico que puedes probar de inmediato y reutilizar para evaluaciones de proveedores, solicitudes de propuestas y comparativas de ofertas.",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**DESCRIPCIÓN DEL ESCENARIO**\n\nHas recibido una **solicitud de propuesta (RFP)** y varias propuestas de proveedores. Necesita compararlas rápidamente y recomendar la mejor opción\n\nEn este caso de uso, Copilot Chat te ayuda a:\n- Analizar la solicitud de RFP y las propuestas\n- Elabora un **análisis comparativo** en **formato de tabla**\n- Evalúa cada propuesta según criterios clave\n- Añade más proveedores a la comparación más adelante\n- Genera archivos listos para compartir (Word + Excel) para facilitar la colaboración\n\n**PROMPTS UTILIZADOS [Copia y Pega]**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "✨ *Analice la solicitud de propuestas (RFP) adjunta y realice un análisis comparativo con las propuestas adjuntas. El resultado debe presentarse en formato de tabla. Para cada sección del documento de solicitud de propuestas, indique qué propuesta es la mejor. Cuantifique esta evaluación siguiendo estas pautas: presupuesto (gana el precio más bajo), calendario de implementación (gana el más breve), requisitos técnicos (mejor adecuación + exhaustividad) e introducción (mejor exhaustividad), Requisitos empresariales (máximo cumplimiento + exhaustividad). La tabla de resultados debe incluir: una columna para las secciones, una columna para cada propuesta presentada con las puntuaciones asignadas y una columna en la que se explique el fundamento de las distintas puntuaciones. En cada categoría, asigne puntos a un solo proveedor. Por último, incluye un resumen en el que se indique cuál es la mejor propuesta en general.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Añade a la comparación el documento «Oferta de 3 estrellas.docx» de la empresa.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Inserta la introducción, el análisis y un gráfico comparativo sencillo en un documento de Word.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Generar un archivo de Excel a partir de los datos de la tabla comparativa.*",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Comparte la tabla y el resumen con un compañero y sugiere tres mejoras para que la evaluación resulte más clara para la dirección. (por ejemplo, ponderación, riesgos, hipótesis, lagunas en los datos). A continuación, perfeccione la recomendación final.*",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**¿Te ha inspirado este ejemplo de uso? ¡Ponlo en práctica!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Prueba Copilot Chat",
+                  "url": "https://m365copilot.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}

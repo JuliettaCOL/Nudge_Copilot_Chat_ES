@@ -1,0 +1,119 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i.imgur.com/kRok1NE.png",
+          "size": "Stretch",
+          "style": "Default"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**¡Bienvenidos al gran viaje de Copilot Chat: el caso práctico de la semana!**",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Bienvenidos a la segunda semana de nuestra serie «Caso práctico de la semana», en la que veremos cómo Copilot Chat puede ayudarte con tareas cotidianas como redactar borradores, organizar información, analizar contenidos o planificar los próximos pasos.\nSin teorías: solo ejemplos prácticos que puedes poner en práctica de inmediato y ver la diferencia en tu trabajo diario.**\n\n¡No te pierdas cómo vamos adquiriendo nuevos hábitos con Copilot, semana tras semana!",
+          "wrap": true,
+          "spacing": "Small"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**DESCRIPCIÓN DEL ESCENARIO**\n\nEste caso práctico muestra cómo Copilot Chat puede actuar como un **asesor inteligente** para los profesionales del marketing.\nEl escenario se centra en un director de marketing que prepara una **presentación de alto nivel para la dirección**, en la que se exponen los resultados de una campaña de PetProtein, una nueva línea de productos para perros sanos. \nEl proceso comienza pidiendo a Copilot que **genere una lista de tareas** necesarias para elaborar la presentación. \nA continuación, se sube un documento con datos de la campaña (análisis del sitio web, redes sociales, CRM) y se le pide a Copilot que **genere contenido** para cada tarea basándose en los datos reales. \nUna vez que el contenido está listo, Copilot crea un **borrador de presentación de PowerPoint**. \nEl usuario puede revisar y modificar cada tarea directamente en **Microsoft Pages**, e incluso **regenerar la presentación en otros idiomas**, como el francés o el alemán. Este caso práctico pone de relieve cómo Copilot Chat facilita la planificación estructurada, la integración de datos y la creación de contenidos, todo ello en un único flujo de trabajo.\n\n**PROMPTS UTILIZADOS [Copia y Pega]**",
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Small",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "✨ *Soy director de marketing y estoy trabajando en un producto que se lanzó hace tres meses. El producto se llama PetProtein y es una nueva línea de alimentos para perros sanos y en forma. Tengo que presentar los resultados de la campaña de marketing al equipo directivo, por lo que necesito preparar una presentación general. Elabora una lista de tareas desglosadas para cumplir con mis objetivos. Haz una lista breve.*",
+          "wrap": true
+        },
+        
+        {
+          "type": "TextBlock",
+          "text": "✨ *Actúa como asesor de comunicación para directivos. Revisa este borrador de presentación [Subir archivo] y mejóralo para un público ejecutivo:
+          - Refina la redacción para que resulte clara, segura y basada en datos (elimina las florituras).
+          - Asegúrate de que cada diapositiva tenga un mensaje principal y una terminología coherente.
+          - Añade notas del ponente (2-3 puntos clave breves por diapositiva).
+          - Elabora una lista de preparación para la ronda de preguntas y respuestas: 8 preguntas probables de los directivos + respuestas sólidas y basadas en datos, a partir de los datos de la campaña subidos.
+          Si falta algo o hay algo que no está claro, márcalo como «laguna de datos» y sugiere qué añadir.*", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Crea una diapositiva con el resumen ejecutivo en francés y alemán.*", 
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "✨ *Crea un archivo de PowerPoint.*", 
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**¿Te ha inspirado este ejemplo de uso? ¡Ponlo en práctica!**",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "Medium"
+    },
+   
+       {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Más información",
+                  "url": "https://www.youtube.com/watch?si=1XPWr6r5N3wgxzdy&v=1AriVoD-ijE&feature=youtu.be"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+   
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "**Nota: Este es un mensaje generado por el sistema. Por favor, no respondas a este chat.**",
+          "wrap": true,
+          "weight": "Bolder",
+          "spacing": "Medium"
+        }
+      ]
+    }
+  ]
+}
