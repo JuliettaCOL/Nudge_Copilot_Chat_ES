@@ -39,7 +39,7 @@ El script realiza las siguientes acciones:
 
 ## 🔐 Autenticación
 
-El usuario con el cual se autenticará debe ser una cuenta dedicada Ejemplo: Comunicaciones, ya que los mensajes en Teams saldrán de esta cuenta como remitente. 
+El usuario con el cual se autenticará debe ser una cuenta dedicada Ejemplo: <<comunicaciones@contoso.com>> , ya que los mensajes en Teams saldrán de esta cuenta como remitente. 
 
 El script se conecta a Microsoft Graph utilizando autenticación moderna con los siguientes permisos:
 
