@@ -39,7 +39,7 @@
         },
         {
             "type": "TextBlock",
-            "text": "🚀 ¡Prueba GPT-5 en Copilot Web! ",
+            "text": "🚀 ¡Prueba Copilot Chat! ",
             "wrap": true,
             "weight": "Bolder",
             "size": "Large",
