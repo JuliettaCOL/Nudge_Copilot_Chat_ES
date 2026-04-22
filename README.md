@@ -124,7 +124,7 @@ Todos los logs se almacenan en memoria y luego se escriben en:
 ```text
 CopilotMessageLog_YYYYMMDD_HHMMSS.csv
 ```
-
+<img width="836" height="76" alt="image" src="https://github.com/user-attachments/assets/7276a561-4c7b-4372-a25a-8e46f3c8373e" />
 ***
 
 ## ✅ Prerrequisitos
@@ -132,7 +132,7 @@ CopilotMessageLog_YYYYMMDD_HHMMSS.csv
 ### PowerShell
 
 *   PowerShell 7.0 o superior
-
+Descargalo aquí: https://learn.microsoft.com/es-es/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5
 ***
 
 ### Módulos Requeridos
@@ -144,7 +144,7 @@ Install-Module -Name ImportExcel
 Install-Module -Name Microsoft.Graph.Teams
 Install-Module -Name Microsoft.Graph.Authentication
 ```
-<img width="836" height="76" alt="image" src="https://github.com/user-attachments/assets/7276a561-4c7b-4372-a25a-8e46f3c8373e" />
+
 
 ***
 
