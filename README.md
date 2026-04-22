@@ -218,7 +218,7 @@ cd <ruta_del_script>
 3.  Ejecutar:
 
 ```powershell
-.\SendTeamsAdaptiveCard.ps1
+.\Script_Powershell-Envia_AdaptiveCards.ps1
 ```
 
 4.  Autenticarse cuando se solicite.
